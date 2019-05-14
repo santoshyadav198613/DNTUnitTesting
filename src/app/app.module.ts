@@ -8,13 +8,15 @@ import { FormComponent } from './components/form/form.component';
 import { RouterFormComponent } from './components/router-form/routerform.component';
 import { UserComponent } from './components/user/user.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NamePipe } from './name.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
     RouterFormComponent,
-    UserComponent
+    UserComponent,
+    NamePipe
   ],
   imports: [
     BrowserModule,

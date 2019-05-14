@@ -20,7 +20,6 @@ export class RouterFormComponent implements OnInit {
     });
   }
   save() {
-    //TO DO : save data
     this.router.navigate(['/user']);
   }
 }

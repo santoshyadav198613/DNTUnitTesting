@@ -6,9 +6,10 @@ import { UserComponent } from './components/user/user.component';
 import { RouterFormComponent } from './components/router-form/routerform.component';
 
 const routes: Routes = [
-  { path: '', component: FormComponent },
+  { path: 'home', component: FormComponent },
   { path: 'user', component: UserComponent },
   { path: 'routerform', component: RouterFormComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
 
 @NgModule({
