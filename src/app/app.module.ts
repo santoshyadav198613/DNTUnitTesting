@@ -9,6 +9,7 @@ import { RouterFormComponent } from './components/router-form/routerform.compone
 import { UserComponent } from './components/user/user.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NamePipe } from './name.pipe';
+import { HoverDirective } from './hover.directive';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NamePipe } from './name.pipe';
     RouterFormComponent,
     UserComponent,
     NamePipe
+    HoverDirective
   ],
   imports: [
     BrowserModule,
