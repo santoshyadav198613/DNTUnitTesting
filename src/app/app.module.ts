@@ -8,13 +8,15 @@ import { FormComponent } from './components/form/form.component';
 import { RouterFormComponent } from './components/router-form/routerform.component';
 import { UserComponent } from './components/user/user.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HoverDirective } from './hover.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
     RouterFormComponent,
-    UserComponent
+    UserComponent,
+    HoverDirective
   ],
   imports: [
     BrowserModule,
